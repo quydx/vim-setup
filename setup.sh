@@ -4,7 +4,8 @@ cp .vimrc ~
 home_dir=$(echo ~)
 vimrc="$home_dir/.vimrc"
 cd ~/.vim/bundle
-if [ -z "$(ls -A ~/.vim/bundle)" ]; then
+if [ -z "$(ls -A ~/.vim/bundle/pydiction)" ]; then
+    cd ~/.vim/bundle/
     git clone https://github.com/rkulla/pydiction.git 
 fi
 if [ -f $vimrc ];then 
