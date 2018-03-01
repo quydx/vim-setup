@@ -15,4 +15,7 @@ let g:NERDAltDelims_java = 1
 let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
 let g:NERDCommentEmptyLines = 1
 let g:NERDTrimTrailingWhitespace = 1
-
+" remap nerdcomment 
+nmap <C-_>   <Plug>NERDCommenterToggle
+vmap <C-_>   <Plug>NERDCommenterToggle<CR>gv
+let g:NERDCreateDefaultMappings = 0
