@@ -15,7 +15,7 @@ fi
 if [ ! -d '~/.vim/bundle/nerdcommenter' ];then 
     git clone https://github.com/scrooloose/nerdcommenter.git
 fi
-if [ -d '~/.vim/bundle/nerdcommenter' ];then
+if [ -d '~/.vim/bundle/vim' ];then
     git clone https://github.com/dracula/vim.git
 fi
 
