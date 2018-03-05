@@ -12,7 +12,7 @@ fi
 if [ -f $vimrc ];then 
     sed -i 's~/home/quy~'$home_dir'~g' $vimrc
 fi
-if [ -d '~/.vim/bundle/nerdcommenter' ];then 
+if [ ! -d '~/.vim/bundle/nerdcommenter' ];then 
     git clone https://github.com/scrooloose/nerdcommenter.git
 fi
 if [ -d '~/.vim/bundle/nerdcommenter' ];then
