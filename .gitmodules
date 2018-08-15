@@ -1,0 +1,3 @@
+[submodule ".vim/bundle/vim"]
+	path = .vim/bundle/vim
+	url = https://github.com/dracula/vim.git
